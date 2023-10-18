@@ -1,8 +1,8 @@
-package com.invenium.polyhymniaplayer
+package com.invenium.polyhymniaplayer.fragments
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.invenium.polyhymniaplayer.ui.main.MainFragment
+import com.invenium.polyhymniaplayer.R
 
 class MainActivity : AppCompatActivity() {
 
