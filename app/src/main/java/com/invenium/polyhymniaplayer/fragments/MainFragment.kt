@@ -1,4 +1,4 @@
-package com.invenium.polyhymniaplayer.ui.main
+package com.invenium.polyhymniaplayer.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.invenium.polyhymniaplayer.R
+import com.invenium.polyhymniaplayer.fragments.viewmodel.MainViewModel
 
 class MainFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.invenium.polyhymniaplayer.ui.main
+package com.invenium.polyhymniaplayer.fragments.viewmodel
 
 import androidx.lifecycle.ViewModel
 
