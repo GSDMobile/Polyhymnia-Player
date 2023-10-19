@@ -3,6 +3,7 @@ package com.invenium.polyhymniaplayer.fragments
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.invenium.polyhymniaplayer.R
+import com.invenium.polyhymniaplayer.fragments.home.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
