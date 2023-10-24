@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_gravity="center"
+        />
 
     <TextView
-        android:id="@+id/message"
+        android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MainFragment"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Welcome to Polyhymnia. / (ˌpɒlɪˈhɪmnɪə) / noun. Greek myth "
+        android:layout_gravity="center"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="the Muse of singing, mime, and sacred dance!"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/myButtonSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Songs"
+        android:layout_gravity="left"
+        />
+
+    <Button
+        android:id="@+id/myButtonArtists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artists"
+        android:layout_gravity="left"
+        />
+
+    <Button
+        android:id="@+id/myButtonAlbums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albums"
+        android:layout_gravity="center_vertical"
+        />
+
+    <Button
+        android:id="@+id/myButtonPlaylists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playlists"
+        android:layout_gravity="left"
+        />
+    <
+
+
+</LinearLayout>
