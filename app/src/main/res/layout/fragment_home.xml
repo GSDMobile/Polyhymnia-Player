@@ -15,7 +15,7 @@
         />
 
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/myTextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to Polyhymnia. / (ˌpɒlɪˈhɪmnɪə) / noun. Greek myth "
@@ -23,7 +23,7 @@
         />
 
     <TextView
-        android:id="@+id/myTextView"
+        android:id="@+id/myTextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="the Muse of singing, mime, and sacred dance!"
@@ -61,7 +61,6 @@
         android:text="Playlists"
         android:layout_gravity="left"
         />
-    <
 
 
 </LinearLayout>
