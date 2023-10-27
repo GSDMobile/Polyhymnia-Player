@@ -16,4 +16,4 @@
         android:id="@+id/songsfragment"
         android:name="com.invenium.polyhymniaplayer.fragments.songs.SongsFragment"
         android:label="songsfragment" />
-</navigation>w
+</navigation>
