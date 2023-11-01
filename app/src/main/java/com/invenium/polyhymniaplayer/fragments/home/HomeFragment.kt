@@ -11,11 +11,19 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val myButton: Button = view.findViewById(R.id.myButtonSongs)
+        val mySongsButton: Button = view.findViewById(R.id.myButtonSongs)
 
-        val navcontrol = findNavController()
-        myButton.setOnClickListener {
-            navcontrol.navigate(R.id.action_homeFragment_to_songsfragment)
+        val myArtistsButton: Button = view.findViewById(R.id.myButtonArtists)
+
+        val navControlSongs = findNavController()
+        mySongsButton.setOnClickListener {
+            navControlSongs.navigate(R.id.action_homeFragment_to_songsfragment)
+        }
+
+        val navControlArtists = findNavController()
+        mySongsButton.setOnClickListener {
+            navControlArtists.navigate(R.id.action_homeFragment_to_artistsFragment)
+
         }
     }
 }

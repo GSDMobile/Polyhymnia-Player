@@ -11,9 +11,16 @@
         <action
             android:id="@+id/action_homeFragment_to_songsfragment"
             app:destination="@id/songsfragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_artistsFragment"
+            app:destination="@id/artistsFragment" />
     </fragment>
     <fragment
         android:id="@+id/songsfragment"
         android:name="com.invenium.polyhymniaplayer.fragments.songs.SongsFragment"
         android:label="songsfragment" />
+    <fragment
+        android:id="@+id/artistsFragment"
+        android:name="com.invenium.polyhymniaplayer.fragments.artists.ArtistsFragment"
+        android:label="ArtistsFragment" />
 </navigation>
