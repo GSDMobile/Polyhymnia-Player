@@ -14,6 +14,12 @@
         <action
             android:id="@+id/action_homeFragment_to_artistsFragment"
             app:destination="@id/artistsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_albumsFragment"
+            app:destination="@id/albumsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_playlistsFragment"
+            app:destination="@id/playlistsFragment" />
     </fragment>
     <fragment
         android:id="@+id/songsfragment"
@@ -23,4 +29,12 @@
         android:id="@+id/artistsFragment"
         android:name="com.invenium.polyhymniaplayer.fragments.artists.ArtistsFragment"
         android:label="ArtistsFragment" />
+    <fragment
+        android:id="@+id/albumsFragment"
+        android:name="com.invenium.polyhymniaplayer.fragments.albums.AlbumsFragment"
+        android:label="AlbumsFragment" />
+    <fragment
+        android:id="@+id/playlistsFragment"
+        android:name="com.invenium.polyhymniaplayer.fragments.playlists.PlaylistsFragment"
+        android:label="PlaylistsFragment" />
 </navigation>

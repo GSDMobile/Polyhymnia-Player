@@ -1,4 +1,7 @@
 package com.invenium.polyhymniaplayer.fragments.albums
 
-class AlbumsFragment {
+import androidx.fragment.app.Fragment
+import com.invenium.polyhymniaplayer.R
+
+class AlbumsFragment : Fragment(R.layout.fragment_albums) {
 }

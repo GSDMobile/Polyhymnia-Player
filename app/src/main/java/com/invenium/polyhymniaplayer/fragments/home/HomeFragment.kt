@@ -15,15 +15,28 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val myArtistsButton: Button = view.findViewById(R.id.myButtonArtists)
 
+        val myAlbumsButton: Button = view.findViewById(R.id.myButtonAlbums)
+
+        val myPlaylistsButton: Button = view.findViewById(R.id.myButtonPlaylists)
+
         val navControlSongs = findNavController()
         mySongsButton.setOnClickListener {
             navControlSongs.navigate(R.id.action_homeFragment_to_songsfragment)
         }
 
         val navControlArtists = findNavController()
-        mySongsButton.setOnClickListener {
+        myArtistsButton.setOnClickListener {
             navControlArtists.navigate(R.id.action_homeFragment_to_artistsFragment)
+        }
 
+        val navControlAlbums = findNavController()
+        myAlbumsButton.setOnClickListener {
+            navControlAlbums.navigate(R.id.action_homeFragment_to_albumsFragment)
+        }
+
+        val navControlPlaylists = findNavController()
+        myPlaylistsButton.setOnClickListener {
+            navControlPlaylists.navigate(R.id.action_homeFragment_to_playlistsFragment)
         }
     }
 }
